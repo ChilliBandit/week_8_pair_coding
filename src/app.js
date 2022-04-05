@@ -41,3 +41,14 @@ function lastelement(array3) {
 console.log(lastelement(["Ec", 2, "twenty", 12, "banana"]))
 //arr.length -1
 //pop()
+
+//create a function that takes an array and returns it as a string
+
+function arraytostring(arr) {
+    return arr.join('')
+}
+console.log(arraytostring(["Ec", 12, "four"]))
+//TODO Study this nonsense
+
+//create a function that takes an array and return the data tupes of the array values in a new array
+  
