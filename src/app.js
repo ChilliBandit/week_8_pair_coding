@@ -2,11 +2,12 @@
 // example: getarrelement([1, 2, 3, 4]) ->1
 //SECTION Creating a function
 
-function getarrelement([arr]) {
-     return arr[0]
-}
-console.log(getarrelement([1, 2, 3, 4]));
+// function getarrelement([arr]) {
+//      return arr[0]
+// }
+// console.log(getarrelement([1, 2, 3, 4]));
 
 
-const getarrelement = arr => arr[0]
+const getarrelement1 = arr => arr[0]
 //NOTE Arrow function ^^^
+console.log(getarrelement1([1, 2, 3, 4]))
