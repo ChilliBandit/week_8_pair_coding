@@ -63,7 +63,7 @@ console.log(arraytostring(["Ec", 12, "four"]))
 //     return newarray
 // }
 
-const arrayvaluetypes = array4 = array4.map(y => typeof y)
+const arrayvaluetypes = arrays => arrays.map(y => typeof y)
 
 
 console.log(arrayvaluetypes([]))
