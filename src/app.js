@@ -18,3 +18,15 @@ function createarray(a, b) {
     return array
 }
 console.log(createarray(1, 2))
+//NOTE "arguments" are the values declared within a function. In this case, they are "a" and "b"
+
+//Write a function to reverse an array 
+//Example: reverseArray([1, 2, 3, 4]) -> [4, 3, 2, 1]
+
+function reverseArray([a, b, c, d]) {
+    var array2 = [d , c, b, a]
+    return array2
+}
+console.log(reverseArray([1, 2, 3, 4]))
+//NOTE Providing parameters for the function, then a variable with the reversed parameters
+    // We then ask the function to return the variable within the initial parameters provided
