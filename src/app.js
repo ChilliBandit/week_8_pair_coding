@@ -53,14 +53,17 @@ console.log(arraytostring(["Ec", 12, "four"]))
 //create a function that takes an array and return the data tupes of the array values in a new array
   //arrayvaluetypes(["EC", 2, "four", [], true]) ->[string, muber, string, object, boolean]
 
-function arrayvaluetypes(array4) {
-   var newarray = [];
+// function arrayvaluetypes(array4) {
+//    var newarray = [];
 
-    for(var i = 0; i <array4.length; i++) {
-        newarray[i] = typeof array4 [i]
-    }
+//     for(var i = 0; i <array4.length; i++) {
+//         newarray[i] = typeof array4 [i]
+//     }
 
-    return newarray
-}
+//     return newarray
+// }
+
+const arrayvaluetypes = array4 = array4.map(y => typeof y)
+
 
 console.log(arrayvaluetypes([]))
