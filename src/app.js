@@ -30,4 +30,27 @@ function createarray(a, b) {
     return array
 }
 console.log(createarray(1, 2))
+<<<<<<< HEAD
 >>>>>>> d57bb41c2920b4603d066040d9b9461e08ac9aee
+=======
+//NOTE "arguments" are the values declared within a function. In this case, they are "a" and "b"
+
+//Write a function to reverse an array 
+//Example: reverseArray([1, 2, 3, 4]) -> [4, 3, 2, 1]
+
+// function reverseArray([a, b, c, d]) {
+//     var array2 = [d, c, b, a]
+//     return array2
+// }
+// console.log(reverseArray([1, 2, 3, 4, 5]))
+//NOTE Providing parameters for the function, then a variable with the reversed parameters
+    // We then ask the function to return the variable within the initial parameters provided
+
+// function reversearray(x) {
+//     return x.reverse()
+// }
+// console.log(reversearray([1, 2, 3 , 4, 5]))
+
+const reversearray = x => x.reverse()
+console.log(reversearray([1, 2, 3, 4, 10]))
+>>>>>>> 31ef189dfb3c4113f77674a66a05d9f43d978c91
