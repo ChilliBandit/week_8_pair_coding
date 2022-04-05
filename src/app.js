@@ -74,3 +74,4 @@ console.log(arraytostring(["Ec", 12, "four"]))
 //create a function that takes an array and return the data tupes of the array values in a new array
   
 >>>>>>> bb567612df22fc123d4a7d2cb2bff48f3183ac85
+
