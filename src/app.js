@@ -110,6 +110,7 @@ function compare(name1, name2) {
 console.log(compare("AB", "CD"))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // function reversearray(x) {
 //     return x.reverse()
 // }
@@ -157,3 +158,10 @@ console.log(arrayvaluetypes([]))
 
 =======
 >>>>>>> 8dbbe4eac9b484dd19b1a40690574e796b375da1
+=======
+//write a function that takes an array of elements and returns only the numbers in the array
+//and console.log the result in an array
+
+function onlyNumber(arr)
+
+>>>>>>> 710e4d9954243edbcc9a467caddec0a1a02439e1
