@@ -67,3 +67,4 @@ const arrayvaluetypes = arrays => arrays.map(y => typeof y)
 
 
 console.log(arrayvaluetypes([]))
+
