@@ -103,17 +103,22 @@
 
 // console.log(stringNumber("hhh", "hah"))
 
-function compare(name1, name2) {
-     return name1.length === name2.length
-}
+// function compare(name1, name2) {
+//      return name1.length === name2.length
+// }
 
-console.log(compare("AB", "CD"))
+// console.log(compare("AB", "CD"))
 
 //write a function that takes an array of elements and returns only the numbers in the array
 //and console.log the result in an array
 // Example: onlYNumber([1,2,3,"ali",[],"jajsak", true]) -> [1,2,3]
 
-function onlyNumber(arr) {
+//ES6
+const onlyNumbers1 = arr => arr.filter(Number.isInteger) 
 
-}
+//ES5
+ function onlyNumber(arr) {
+      return arr.filter(Number.isInteger)
+ }
 
+ console.log(onlyNumber([1,2,3,"ali",[],"jajsak", true,4]))
