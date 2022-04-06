@@ -109,3 +109,8 @@ function compare(name1, name2) {
 
 console.log(compare("AB", "CD"))
 
+//write a function that takes an array of elements and returns only the numbers in the array
+//and console.log the result in an array
+
+function onlyNumber(arr)
+
