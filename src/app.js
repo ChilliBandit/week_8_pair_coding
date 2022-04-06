@@ -111,6 +111,9 @@ console.log(compare("AB", "CD"))
 
 //write a function that takes an array of elements and returns only the numbers in the array
 //and console.log the result in an array
+// Example: onlYNumber([1,2,3,"ali",[],"jajsak", true]) -> [1,2,3]
 
-function onlyNumber(arr)
+function onlyNumber(arr) {
+
+}
 
