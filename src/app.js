@@ -75,3 +75,20 @@ console.log(arraytostring(["Ec", 12, "four"]))
   
 >>>>>>> bb567612df22fc123d4a7d2cb2bff48f3183ac85
 
+<<<<<<< HEAD
+=======
+// function arrayvaluetypes(array4) {
+//    var newarray = [];
+
+//     for(var i = 0; i <array4.length; i++) {
+//         newarray[i] = typeof array4 [i]
+//     }
+
+//     return newarray
+// }
+
+const arrayvaluetypes = arrays => arrays.map(y => typeof y)
+
+
+console.log(arrayvaluetypes([]))
+>>>>>>> c0734ea9c9b8395467f4f04e059ed040ae4bdc1e
